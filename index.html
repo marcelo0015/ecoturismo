@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoturismo em Arapoti - Aventura na Natureza</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
 
+    <header>
+        <h1>Arapoti: Aventura e Natureza</h1>
+        <p>Explore o Ecoturismo na capital paranaense das flores.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#atracoes">Atrações</a>
+        <a href="#contato">Contato</a>
+        <a href="javascript:void(0)" onclick="mostrarMensagem()">Novidades</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>🌍 Bem-vindo à Arapoti Ecológica</h2>
+            <p>Arapoti, além de sua famosa produção de flores, é um refúgio de belezas naturais. Prepare-se para trilhas, cachoeiras e paisagens de tirar o fôlego!</p>
+            <p>O ecoturismo aqui é uma experiência de imersão e respeito pela **Mata Atlântica** e pelos rios da região.</p>
+            
+        </section>
+
+        <section id="atracoes">
+            <h2>🌲 Principais Atrações</h2>
+            <div class="atracao-card">
+                <h3>Cachoeira do Salto</h3>
+                <p>Queda d'água impressionante, ideal para banho e contemplação.</p>
+            </div>
+            <div class="atracao-card">
+                <h3>Parque Municipal</h3>
+                <p>Área verde com trilhas leves e locais para piquenique, perfeita para a família.</p>
+            </div>
+            <div class="atracao-card">
+                <h3>Trilha da Serra</h3>
+                <p>Desafio para os aventureiros, com vistas panorâmicas da cidade e da natureza circundante.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>📞 Fale Conosco</h2>
+            <p>Entre em contato para agendar seu roteiro e saber mais sobre guias locais.</p>
+            <form id="contato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar Contato</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ecoturismo Arapoti. Preservar é a nossa aventura.</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>

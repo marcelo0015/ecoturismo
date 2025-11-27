@@ -1,1 +1,129 @@
+/* Definições globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
 
+/* Cabeçalho (Header) */
+header {
+    background-color: #004d40; /* Verde escuro para natureza */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #a5d6a7; /* Verde claro de destaque */
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Navegação (Nav) */
+nav {
+    background-color: #388e3c; /* Verde médio */
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #2e7d32; /* Verde um pouco mais escuro ao passar o mouse */
+}
+
+/* Conteúdo Principal (Main) */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #004d40;
+    border-bottom: 2px solid #a5d6a7;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Cartões de Atrações */
+.atracao-card {
+    background-color: #e8f5e9; /* Fundo muito claro */
+    border: 1px solid #c8e6c9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.atracao-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.atracao-card h3 {
+    color: #388e3c;
+    margin-top: 0;
+}
+
+/* Formulário de Contato */
+#contato-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contato-form input[type="text"],
+#contato-form input[type="email"],
+#contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+#contato-form button {
+    background-color: #004d40;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+#contato-form button:hover {
+    background-color: #00382e;
+}
+
+/* Rodapé (Footer) */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
